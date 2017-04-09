@@ -33,7 +33,7 @@ Generate the following html:
 #### Generate Image tag
 
 ```md
-{% AmazonJpLink "B01N59VNQY", "johndue-22", "150" %}macOS Sierra{% endAmazonJpLink %}
+{% AmazonJpImage "B01N59VNQY", "johndue-22", "150" %}macOS Sierra{% endAmazonJpImage %}
 ```
 
 Generate the following html:
@@ -44,3 +44,9 @@ Generate the following html:
 </a>
 <img src="http://www.assoc-amazon.jp/e/ir?t=johndue-22&amp;l=as2&amp;o=9&amp;a=B01N59VNQY" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;">
 ```
+
+### Development
+
+#### Test for plugin
+
+**[Test your plugin · GitBook Toolchain Documentation](https://toolchain.gitbook.com/plugins/testing.html)**
